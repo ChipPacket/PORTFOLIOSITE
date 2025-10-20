@@ -9,9 +9,9 @@
 <body>
     <!-- NAV BAR STUFF. CHANGE COLOURS + ADD LINKS -->
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
-            <a class="navbar-brand" href="#">Layla Maksymuik</a>
+            <a class="navbar-brand" href="#">> Layla Maksymuik</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,6 +26,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Skills</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
                 <span class="navbar-text">
                     CV Download
@@ -35,20 +38,37 @@
         </div>
     </nav>
     </header>
-
+    
+    <section style="padding-top: 4rem;">
     <div class="container">
-        <h2> About Me</h2>
-        <h3> Hi im layla</h3>
-        <p> Lalala intro information about me  woopy doo</p>
+        <div class="row">
+            <div class="col-6">
+                <h1>> Hi! I'm Layla</h1>
+                <h6><i>Aspiring UX Developer, Current Computer Science Student</i></h4>
+                <p>You need a PERSONALITY!! INTRODUCE URSELF!! </p>
+                <p>Text describing skills and career aspirations. BRIEF AS FUCK. More detail later on page</p>
 
-        <h3> Skills</h3>
-        <p> then we're gonna list off various things more info later on page </p>
+            </div>
+            <div class="col-6">
+                <!--<h4>Currently...</h4>-->
+                <!-- <p>Studying Computer Science (User Experience and Design) with Industrial Placement at the University of Dundee </p> -->
+
+                <h4>Core Skills</h4>
+                <p>Java</p>
+                <p>Python</p>
+                <p>add more and format this better</p>
+
+                <a href="#" class="btn btn-success">View my CV?</a>
+            </div>
+        </div>
     </div>
+    </section>
 
+    <section>
     <div class="container">
-        <h2> Projects</h2>
+        <h2 id="Projects"> Projects</h2>
         <p> we're gonna split it into 3 sections per project so they each have a description and then i just have to upload things to github . great</p>
-        <div>
+        <div class="row">
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="https://lh3.googleusercontent.com/F12CfU7uUeXERuIsCm3v78xZ7hlWxscJArPO7rrVCrksu-ieLmVfTByqGvekYyGz1hczikrnJ55QazJ9viM7O20_BA=s1280-w1280-h800" class="card-img-top" alt="...">
@@ -105,10 +125,12 @@
             </div>
         </div>
     </div>
+    </section>
 
+    <section>
     <div class="container">
-        <h2> Skills</h2>
-            <div class="grid-demo row">
+        <h2 id="Skills"> Skills</h2>
+            <div class="row">
                 <div class="col-6">
                     <h3>Developer</h3>
                     <ul>
@@ -117,7 +139,7 @@
                         <li>C</li>
                         <li>HTML / CSS / Bootstrap</li>
                         <li>SQL</li>
-                        <li>Github</li>
+                        <li>GitHub</li>
                         <li>Microsoft Excel</li>
                     </ul>
                 </div>
@@ -134,16 +156,17 @@
                 </div>
             </div>
     </div>
+    </section>
 
     <!-- PERSONALISE FOOTER + ADD COLOURS AND ICONS . MOVE LINKED IN N GITHUB TO RIGHT?-->
-    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted" id="Contact">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div class="container text-center">
                 <p>LMaksymuik@outlook.com | +44 753526460 | <a href="https://github.com/ChipPacket">GitHub</a> | <a href="https://www.linkedin.com/in/layla-maksymuik/">LinkedIn</a> </p>
             </div>
         </section>
-     
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
